@@ -1,0 +1,55 @@
+.body{
+    background-color: white;
+}
+.block{
+            width:300px;
+            height: 500px;
+            background-size: cover;
+            color:black;
+            position: absolute;
+            border: 3px solid white;
+            box-shadow: 0px 0px 5px #FFF;
+        }
+        .block1{
+            width:300px;
+            height: 500px;
+            background-size: cover;
+            color:black;
+            position: absolute;
+            border: 3px solid white;
+            margin-left: 400px;
+             box-shadow: 0px 0px 5px #FFF;
+        }
+        .block2{
+            width:300px;
+            height: 500px;
+            background-size: cover;
+            color:black;
+            position: absolute;
+            border: 3px solid white;
+            margin-left: 800px;
+             box-shadow: 0px 0px 5px #FFF;
+        }
+        
+        .block1:hover ,.block2:hover, .block:hover{
+            transform: translateX(4px);
+        }
+        .item1{
+            background-color: #FFF;
+            width:300px;
+            height: 100px;
+            margin-top:400px;
+            font-family: calibri;
+            font-size: 15px;
+        }
+        .q{
+           background-image: url(images/hambreBleu.jpg); 
+        }
+        .r{
+            background-image: url(images/vin.jpg);
+        }
+        .s{
+            background-image: url(images/chambre.jpg);
+        }
+.dark{
+    background-color: black;}
